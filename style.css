@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+header, section{
+    padding: 30px 80px;
+}
+
+img{
+    width: 400px;
+}
+
+hr{
+    border-color: grey;
+}
+
+/*HEADER*/
+header{
+    background-image: url(img/fondo-apa.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+}
+
+/*Primera Sección*/
+#empresa{
+    display: flex;
+    text-align: center;
+}
+
+#empresa div:last-of-type{
+    margin: auto;
+    width: 600px;
+}
+
+#empresa button{
+    background-color: grey;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/*SEGUNDA SECCION*/
+#servicios{
+    display: flex;
+}
+
+#margen{
+    margin: auto;
+    display: flex;
+}
+
+#servicios ul{
+    list-style: none;
+}
+
+#servicios span{
+    font-size: 50px;
+}
+
+/*TERCERA SECCION*/
+#clientes{
+    background-color: white;
+}
+
+#clientes h2, #clientes p{
+    color: black;
+}
+
+#clientes div:last-of-type{
+    text-align: center;
+    background-color: white;
+}
+
+#clientes img{
+    width: 300px;
+    margin: 20px;
+}
+
+/*CUARTA SECCION*/
+#frase{
+    text-align: center;
+}
+
+#frase div{
+    display: flex;
+}
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+}
