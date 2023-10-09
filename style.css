@@ -14,7 +14,7 @@ header, section{
 }
 
 img{
-    width: 400px;
+    width: 50%;
 }
 
 hr{
@@ -29,21 +29,34 @@ header{
     font-size: 50px;
 }
 
+h1{
+    font-size: 70px;
+}
+
 /*Primera Sección*/
 #empresa{
     display: flex;
     text-align: center;
 }
 
+#empresa div:first-of-type{
+    width: 40%;
+}
+
+#empresa img{
+    width: 100%;
+}
+
 #empresa div:last-of-type{
     margin: auto;
-    width: 600px;
+    margin-right: 0;
+    width: 50%;
 }
 
 #empresa button{
     background-color: grey;
     cursor: pointer;
-    width: 100px;
+    width: 50%;
     height: 30px;
     border-radius: 5px;
 }
@@ -51,6 +64,15 @@ header{
 /*SEGUNDA SECCION*/
 #servicios{
     display: flex;
+    text-align: center;
+}
+
+#servicios div:first-of-type{
+    width: 70%;
+}
+
+#servicios img{
+    width: 100%;
 }
 
 #margen{
@@ -81,7 +103,7 @@ header{
 }
 
 #clientes img{
-    width: 300px;
+    width: 25%;
     margin: 20px;
 }
 
