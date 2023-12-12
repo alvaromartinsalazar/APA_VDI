@@ -23,14 +23,19 @@ hr{
 
 /*HEADER*/
 header{
-    background-image: url(img/fondo-apa.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/fondo_header.jpg");
     background-size: cover;
     background-position: center;
-    font-size: 50px;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 90px;
+    margin: 0;
+    margin-left: 20%;
+}
+
+h1 span{
+    margin-left: 5%;
 }
 
 /*Primera Sección*/
@@ -56,9 +61,14 @@ h1{
 #empresa button{
     background-color: grey;
     cursor: pointer;
-    width: 50%;
+    width: 30%;
     height: 30px;
     border-radius: 5px;
+}
+
+#empresa button:hover{
+    background-color: rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px white;
 }
 
 /*SEGUNDA SECCION*/
@@ -82,10 +92,15 @@ h1{
 
 #servicios ul{
     list-style: none;
+    text-align: start;
 }
 
 #servicios span{
     font-size: 50px;
+}
+
+.letras_servicios{
+    font-size: 30px;
 }
 
 /*TERCERA SECCION*/
@@ -105,6 +120,7 @@ h1{
 #clientes img{
     width: 25%;
     margin: 20px;
+    border-radius: 360px;
 }
 
 /*CUARTA SECCION*/
@@ -116,6 +132,31 @@ h1{
     display: flex;
 }
 
+/*QUINTA SECCION*/
+#precios{
+    background-color: white;
+    text-align: center;
+}
+
+#precios h2, #precios th,td{
+    color: black;
+    margin: 0 auto;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
 
 /*FOOTER*/
 footer{
